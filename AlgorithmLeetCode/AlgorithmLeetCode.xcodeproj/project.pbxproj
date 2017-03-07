@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		7B1A61021E6EC3CE002BAD1F /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1A61011E6EC3CE002BAD1F /* main.swift */; };
+		7B1A61091E6EC442002BAD1F /* E_001_TwoSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1A61081E6EC442002BAD1F /* E_001_TwoSum.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,7 @@
 /* Begin PBXFileReference section */
 		7B1A60FE1E6EC3CE002BAD1F /* AlgorithmLeetCode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AlgorithmLeetCode; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B1A61011E6EC3CE002BAD1F /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		7B1A61081E6EC442002BAD1F /* E_001_TwoSum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = E_001_TwoSum.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			isa = PBXGroup;
 			children = (
 				7B1A61011E6EC3CE002BAD1F /* main.swift */,
+				7B1A61081E6EC442002BAD1F /* E_001_TwoSum.swift */,
 			);
 			path = AlgorithmLeetCode;
 			sourceTree = "<group>";
@@ -121,6 +124,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B1A61091E6EC442002BAD1F /* E_001_TwoSum.swift in Sources */,
 				7B1A61021E6EC3CE002BAD1F /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
