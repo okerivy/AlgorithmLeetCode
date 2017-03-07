@@ -10,11 +10,13 @@ import Foundation
 
 print("Hello, World!")
 
+
+
 //twoSum()
 //removeElement()
 //removeDuplicatesFromSortedArray()
-removeDuplicatesFromSortedArrayII()
-
+//removeDuplicatesFromSortedArrayII()
+plusOne()
 
 
 

@@ -12,6 +12,8 @@
 		7B1A610B1E6EC520002BAD1F /* E_27_RemoveElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1A610A1E6EC520002BAD1F /* E_27_RemoveElement.swift */; };
 		7B1A610D1E6EC57A002BAD1F /* E-26-RemoveDuplicatesFromSortedArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1A610C1E6EC57A002BAD1F /* E-26-RemoveDuplicatesFromSortedArray.swift */; };
 		7B1A610F1E6EC5C5002BAD1F /* M_80_RemoveDuplicatesFromSortedArrayII.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1A610E1E6EC5C5002BAD1F /* M_80_RemoveDuplicatesFromSortedArrayII.swift */; };
+		7B1A61111E6ED2DC002BAD1F /* E_66_PlusOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1A61101E6ED2DC002BAD1F /* E_66_PlusOne.swift */; };
+		7B1A61131E6F038A002BAD1F /* testSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1A61121E6F038A002BAD1F /* testSwift.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -33,6 +35,8 @@
 		7B1A610A1E6EC520002BAD1F /* E_27_RemoveElement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = E_27_RemoveElement.swift; sourceTree = "<group>"; };
 		7B1A610C1E6EC57A002BAD1F /* E-26-RemoveDuplicatesFromSortedArray.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "E-26-RemoveDuplicatesFromSortedArray.swift"; sourceTree = "<group>"; };
 		7B1A610E1E6EC5C5002BAD1F /* M_80_RemoveDuplicatesFromSortedArrayII.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = M_80_RemoveDuplicatesFromSortedArrayII.swift; sourceTree = "<group>"; };
+		7B1A61101E6ED2DC002BAD1F /* E_66_PlusOne.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = E_66_PlusOne.swift; sourceTree = "<group>"; };
+		7B1A61121E6F038A002BAD1F /* testSwift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = testSwift.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,10 +70,12 @@
 			isa = PBXGroup;
 			children = (
 				7B1A61011E6EC3CE002BAD1F /* main.swift */,
+				7B1A61121E6F038A002BAD1F /* testSwift.swift */,
 				7B1A61081E6EC442002BAD1F /* E_001_TwoSum.swift */,
 				7B1A610A1E6EC520002BAD1F /* E_27_RemoveElement.swift */,
 				7B1A610C1E6EC57A002BAD1F /* E-26-RemoveDuplicatesFromSortedArray.swift */,
 				7B1A610E1E6EC5C5002BAD1F /* M_80_RemoveDuplicatesFromSortedArrayII.swift */,
+				7B1A61101E6ED2DC002BAD1F /* E_66_PlusOne.swift */,
 			);
 			path = AlgorithmLeetCode;
 			sourceTree = "<group>";
@@ -133,8 +139,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B1A61111E6ED2DC002BAD1F /* E_66_PlusOne.swift in Sources */,
 				7B1A610D1E6EC57A002BAD1F /* E-26-RemoveDuplicatesFromSortedArray.swift in Sources */,
 				7B1A610F1E6EC5C5002BAD1F /* M_80_RemoveDuplicatesFromSortedArrayII.swift in Sources */,
+				7B1A61131E6F038A002BAD1F /* testSwift.swift in Sources */,
 				7B1A61091E6EC442002BAD1F /* E_001_TwoSum.swift in Sources */,
 				7B1A61021E6EC3CE002BAD1F /* main.swift in Sources */,
 				7B1A610B1E6EC520002BAD1F /* E_27_RemoveElement.swift in Sources */,
