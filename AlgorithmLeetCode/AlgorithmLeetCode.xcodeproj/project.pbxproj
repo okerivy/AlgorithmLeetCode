@@ -10,6 +10,7 @@
 		7B1A61021E6EC3CE002BAD1F /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1A61011E6EC3CE002BAD1F /* main.swift */; };
 		7B1A61091E6EC442002BAD1F /* E_001_TwoSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1A61081E6EC442002BAD1F /* E_001_TwoSum.swift */; };
 		7B1A610B1E6EC520002BAD1F /* E_27_RemoveElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1A610A1E6EC520002BAD1F /* E_27_RemoveElement.swift */; };
+		7B1A610D1E6EC57A002BAD1F /* E-26-RemoveDuplicatesFromSortedArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1A610C1E6EC57A002BAD1F /* E-26-RemoveDuplicatesFromSortedArray.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,6 +30,7 @@
 		7B1A61011E6EC3CE002BAD1F /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		7B1A61081E6EC442002BAD1F /* E_001_TwoSum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = E_001_TwoSum.swift; sourceTree = "<group>"; };
 		7B1A610A1E6EC520002BAD1F /* E_27_RemoveElement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = E_27_RemoveElement.swift; sourceTree = "<group>"; };
+		7B1A610C1E6EC57A002BAD1F /* E-26-RemoveDuplicatesFromSortedArray.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "E-26-RemoveDuplicatesFromSortedArray.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 				7B1A61011E6EC3CE002BAD1F /* main.swift */,
 				7B1A61081E6EC442002BAD1F /* E_001_TwoSum.swift */,
 				7B1A610A1E6EC520002BAD1F /* E_27_RemoveElement.swift */,
+				7B1A610C1E6EC57A002BAD1F /* E-26-RemoveDuplicatesFromSortedArray.swift */,
 			);
 			path = AlgorithmLeetCode;
 			sourceTree = "<group>";
@@ -127,6 +130,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B1A610D1E6EC57A002BAD1F /* E-26-RemoveDuplicatesFromSortedArray.swift in Sources */,
 				7B1A61091E6EC442002BAD1F /* E_001_TwoSum.swift in Sources */,
 				7B1A61021E6EC3CE002BAD1F /* main.swift in Sources */,
 				7B1A610B1E6EC520002BAD1F /* E_27_RemoveElement.swift in Sources */,

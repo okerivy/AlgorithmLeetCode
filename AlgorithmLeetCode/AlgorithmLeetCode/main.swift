@@ -11,8 +11,8 @@ import Foundation
 print("Hello, World!")
 
 //twoSum()
-removeElement()
-
+//removeElement()
+removeDuplicatesFromSortedArray()
 
 
 
