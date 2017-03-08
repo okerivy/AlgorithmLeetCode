@@ -19,6 +19,7 @@
 		7B1A61191E6FF1CC002BAD1F /* E_88_MergeSortedArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1A61181E6FF1CC002BAD1F /* E_88_MergeSortedArray.swift */; };
 		7B1A611B1E6FFF74002BAD1F /* M_153_FindMinimuminRotatedSortedArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1A611A1E6FFF74002BAD1F /* M_153_FindMinimuminRotatedSortedArray.swift */; };
 		7B1A611D1E700F76002BAD1F /* H_154_FindMinimuminRotatedSortedArrayII.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1A611C1E700F76002BAD1F /* H_154_FindMinimuminRotatedSortedArrayII.swift */; };
+		7B1A611F1E701E32002BAD1F /* H_84_LargestRectangleinHistogram.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1A611E1E701E32002BAD1F /* H_84_LargestRectangleinHistogram.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -47,6 +48,7 @@
 		7B1A61181E6FF1CC002BAD1F /* E_88_MergeSortedArray.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = E_88_MergeSortedArray.swift; sourceTree = "<group>"; };
 		7B1A611A1E6FFF74002BAD1F /* M_153_FindMinimuminRotatedSortedArray.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = M_153_FindMinimuminRotatedSortedArray.swift; sourceTree = "<group>"; };
 		7B1A611C1E700F76002BAD1F /* H_154_FindMinimuminRotatedSortedArrayII.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = H_154_FindMinimuminRotatedSortedArrayII.swift; sourceTree = "<group>"; };
+		7B1A611E1E701E32002BAD1F /* H_84_LargestRectangleinHistogram.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = H_84_LargestRectangleinHistogram.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +93,7 @@
 				7B1A61181E6FF1CC002BAD1F /* E_88_MergeSortedArray.swift */,
 				7B1A611A1E6FFF74002BAD1F /* M_153_FindMinimuminRotatedSortedArray.swift */,
 				7B1A611C1E700F76002BAD1F /* H_154_FindMinimuminRotatedSortedArrayII.swift */,
+				7B1A611E1E701E32002BAD1F /* H_84_LargestRectangleinHistogram.swift */,
 			);
 			path = AlgorithmLeetCode;
 			sourceTree = "<group>";
@@ -165,6 +168,7 @@
 				7B1A61021E6EC3CE002BAD1F /* main.swift in Sources */,
 				7B1A61171E6FE571002BAD1F /* E_119_PascalsTriangleII.swift in Sources */,
 				7B1A610B1E6EC520002BAD1F /* E_27_RemoveElement.swift in Sources */,
+				7B1A611F1E701E32002BAD1F /* H_84_LargestRectangleinHistogram.swift in Sources */,
 				7B1A61191E6FF1CC002BAD1F /* E_88_MergeSortedArray.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
