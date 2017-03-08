@@ -18,6 +18,7 @@
 		7B1A61171E6FE571002BAD1F /* E_119_PascalsTriangleII.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1A61161E6FE571002BAD1F /* E_119_PascalsTriangleII.swift */; };
 		7B1A61191E6FF1CC002BAD1F /* E_88_MergeSortedArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1A61181E6FF1CC002BAD1F /* E_88_MergeSortedArray.swift */; };
 		7B1A611B1E6FFF74002BAD1F /* M_153_FindMinimuminRotatedSortedArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1A611A1E6FFF74002BAD1F /* M_153_FindMinimuminRotatedSortedArray.swift */; };
+		7B1A611D1E700F76002BAD1F /* H_154_FindMinimuminRotatedSortedArrayII.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1A611C1E700F76002BAD1F /* H_154_FindMinimuminRotatedSortedArrayII.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -45,6 +46,7 @@
 		7B1A61161E6FE571002BAD1F /* E_119_PascalsTriangleII.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = E_119_PascalsTriangleII.swift; sourceTree = "<group>"; };
 		7B1A61181E6FF1CC002BAD1F /* E_88_MergeSortedArray.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = E_88_MergeSortedArray.swift; sourceTree = "<group>"; };
 		7B1A611A1E6FFF74002BAD1F /* M_153_FindMinimuminRotatedSortedArray.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = M_153_FindMinimuminRotatedSortedArray.swift; sourceTree = "<group>"; };
+		7B1A611C1E700F76002BAD1F /* H_154_FindMinimuminRotatedSortedArrayII.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = H_154_FindMinimuminRotatedSortedArrayII.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +90,7 @@
 				7B1A61161E6FE571002BAD1F /* E_119_PascalsTriangleII.swift */,
 				7B1A61181E6FF1CC002BAD1F /* E_88_MergeSortedArray.swift */,
 				7B1A611A1E6FFF74002BAD1F /* M_153_FindMinimuminRotatedSortedArray.swift */,
+				7B1A611C1E700F76002BAD1F /* H_154_FindMinimuminRotatedSortedArrayII.swift */,
 			);
 			path = AlgorithmLeetCode;
 			sourceTree = "<group>";
@@ -156,6 +159,7 @@
 				7B1A61111E6ED2DC002BAD1F /* E_66_PlusOne.swift in Sources */,
 				7B1A610D1E6EC57A002BAD1F /* E-26-RemoveDuplicatesFromSortedArray.swift in Sources */,
 				7B1A610F1E6EC5C5002BAD1F /* M_80_RemoveDuplicatesFromSortedArrayII.swift in Sources */,
+				7B1A611D1E700F76002BAD1F /* H_154_FindMinimuminRotatedSortedArrayII.swift in Sources */,
 				7B1A61131E6F038A002BAD1F /* testSwift.swift in Sources */,
 				7B1A61091E6EC442002BAD1F /* E_001_TwoSum.swift in Sources */,
 				7B1A61021E6EC3CE002BAD1F /* main.swift in Sources */,
