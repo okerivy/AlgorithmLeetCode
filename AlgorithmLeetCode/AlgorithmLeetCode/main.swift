@@ -16,7 +16,8 @@ print("Hello, World!")
 //removeElement()
 //removeDuplicatesFromSortedArray()
 //removeDuplicatesFromSortedArrayII()
-plusOne()
+//plusOne()
+pascalsTriangle()
 
 
 
