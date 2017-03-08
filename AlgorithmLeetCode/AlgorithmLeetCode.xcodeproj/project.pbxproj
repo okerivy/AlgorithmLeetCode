@@ -15,6 +15,7 @@
 		7B1A61111E6ED2DC002BAD1F /* E_66_PlusOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1A61101E6ED2DC002BAD1F /* E_66_PlusOne.swift */; };
 		7B1A61131E6F038A002BAD1F /* testSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1A61121E6F038A002BAD1F /* testSwift.swift */; };
 		7B1A61151E6FBC4A002BAD1F /* E_118_Pascal'sTriangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1A61141E6FBC4A002BAD1F /* E_118_Pascal'sTriangle.swift */; };
+		7B1A61171E6FE571002BAD1F /* E_119_PascalsTriangleII.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1A61161E6FE571002BAD1F /* E_119_PascalsTriangleII.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -39,6 +40,7 @@
 		7B1A61101E6ED2DC002BAD1F /* E_66_PlusOne.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = E_66_PlusOne.swift; sourceTree = "<group>"; };
 		7B1A61121E6F038A002BAD1F /* testSwift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = testSwift.swift; sourceTree = "<group>"; };
 		7B1A61141E6FBC4A002BAD1F /* E_118_Pascal'sTriangle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "E_118_Pascal'sTriangle.swift"; sourceTree = "<group>"; };
+		7B1A61161E6FE571002BAD1F /* E_119_PascalsTriangleII.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = E_119_PascalsTriangleII.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 				7B1A610E1E6EC5C5002BAD1F /* M_80_RemoveDuplicatesFromSortedArrayII.swift */,
 				7B1A61101E6ED2DC002BAD1F /* E_66_PlusOne.swift */,
 				7B1A61141E6FBC4A002BAD1F /* E_118_Pascal'sTriangle.swift */,
+				7B1A61161E6FE571002BAD1F /* E_119_PascalsTriangleII.swift */,
 			);
 			path = AlgorithmLeetCode;
 			sourceTree = "<group>";
@@ -149,6 +152,7 @@
 				7B1A61131E6F038A002BAD1F /* testSwift.swift in Sources */,
 				7B1A61091E6EC442002BAD1F /* E_001_TwoSum.swift in Sources */,
 				7B1A61021E6EC3CE002BAD1F /* main.swift in Sources */,
+				7B1A61171E6FE571002BAD1F /* E_119_PascalsTriangleII.swift in Sources */,
 				7B1A610B1E6EC520002BAD1F /* E_27_RemoveElement.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
