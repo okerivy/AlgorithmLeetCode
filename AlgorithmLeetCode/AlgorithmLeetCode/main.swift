@@ -18,7 +18,8 @@ print("Hello, World!")
 //removeDuplicatesFromSortedArrayII()
 //plusOne()
 //pascalsTriangle()
-pascalsTriangleII()
+//pascalsTriangleII()
+mergeSortedArray()
 
 
 
