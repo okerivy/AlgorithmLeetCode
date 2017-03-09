@@ -27,6 +27,7 @@
 		7B1A61291E714411002BAD1F /* M_34_SearchforARange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1A61281E714411002BAD1F /* M_34_SearchforARange.swift */; };
 		7B1A612B1E71547A002BAD1F /* E_35_SearchInsertPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1A612A1E71547A002BAD1F /* E_35_SearchInsertPosition.swift */; };
 		7B1A612F1E716784002BAD1F /* M_162_FindPeakElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1A612E1E716784002BAD1F /* M_162_FindPeakElement.swift */; };
+		7B1A61311E717442002BAD1F /* E_268_MissingNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1A61301E717442002BAD1F /* E_268_MissingNumber.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -63,6 +64,7 @@
 		7B1A61281E714411002BAD1F /* M_34_SearchforARange.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = M_34_SearchforARange.swift; sourceTree = "<group>"; };
 		7B1A612A1E71547A002BAD1F /* E_35_SearchInsertPosition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = E_35_SearchInsertPosition.swift; sourceTree = "<group>"; };
 		7B1A612E1E716784002BAD1F /* M_162_FindPeakElement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = M_162_FindPeakElement.swift; sourceTree = "<group>"; };
+		7B1A61301E717442002BAD1F /* E_268_MissingNumber.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = E_268_MissingNumber.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +117,7 @@
 				7B1A61281E714411002BAD1F /* M_34_SearchforARange.swift */,
 				7B1A612A1E71547A002BAD1F /* E_35_SearchInsertPosition.swift */,
 				7B1A612E1E716784002BAD1F /* M_162_FindPeakElement.swift */,
+				7B1A61301E717442002BAD1F /* E_268_MissingNumber.swift */,
 			);
 			path = AlgorithmLeetCode;
 			sourceTree = "<group>";
@@ -178,6 +181,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B1A61311E717442002BAD1F /* E_268_MissingNumber.swift in Sources */,
 				7B1A611B1E6FFF74002BAD1F /* M_153_FindMinimuminRotatedSortedArray.swift in Sources */,
 				7B1A61151E6FBC4A002BAD1F /* E_118_Pascal'sTriangle.swift in Sources */,
 				7B1A61111E6ED2DC002BAD1F /* E_66_PlusOne.swift in Sources */,
