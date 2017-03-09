@@ -29,6 +29,7 @@
 		7B1A612F1E716784002BAD1F /* M_162_FindPeakElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1A612E1E716784002BAD1F /* M_162_FindPeakElement.swift */; };
 		7B1A61311E717442002BAD1F /* E_268_MissingNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1A61301E717442002BAD1F /* E_268_MissingNumber.swift */; };
 		7B1A61331E7185DC002BAD1F /* E_231_PowerOfTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1A61321E7185DC002BAD1F /* E_231_PowerOfTwo.swift */; };
+		7B1A61351E718D97002BAD1F /* E_191_NumberOf1Bits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1A61341E718D97002BAD1F /* E_191_NumberOf1Bits.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -67,6 +68,7 @@
 		7B1A612E1E716784002BAD1F /* M_162_FindPeakElement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = M_162_FindPeakElement.swift; sourceTree = "<group>"; };
 		7B1A61301E717442002BAD1F /* E_268_MissingNumber.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = E_268_MissingNumber.swift; sourceTree = "<group>"; };
 		7B1A61321E7185DC002BAD1F /* E_231_PowerOfTwo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = E_231_PowerOfTwo.swift; sourceTree = "<group>"; };
+		7B1A61341E718D97002BAD1F /* E_191_NumberOf1Bits.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = E_191_NumberOf1Bits.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +123,7 @@
 				7B1A612E1E716784002BAD1F /* M_162_FindPeakElement.swift */,
 				7B1A61301E717442002BAD1F /* E_268_MissingNumber.swift */,
 				7B1A61321E7185DC002BAD1F /* E_231_PowerOfTwo.swift */,
+				7B1A61341E718D97002BAD1F /* E_191_NumberOf1Bits.swift */,
 			);
 			path = AlgorithmLeetCode;
 			sourceTree = "<group>";
@@ -186,6 +189,7 @@
 			files = (
 				7B1A61311E717442002BAD1F /* E_268_MissingNumber.swift in Sources */,
 				7B1A611B1E6FFF74002BAD1F /* M_153_FindMinimuminRotatedSortedArray.swift in Sources */,
+				7B1A61351E718D97002BAD1F /* E_191_NumberOf1Bits.swift in Sources */,
 				7B1A61151E6FBC4A002BAD1F /* E_118_Pascal'sTriangle.swift in Sources */,
 				7B1A61111E6ED2DC002BAD1F /* E_66_PlusOne.swift in Sources */,
 				7B1A610D1E6EC57A002BAD1F /* E-26-RemoveDuplicatesFromSortedArray.swift in Sources */,

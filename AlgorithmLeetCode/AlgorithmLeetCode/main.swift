@@ -31,7 +31,8 @@ print("Hello, World!")
 //searchInsertPosition()
 //findPeakElement()
 //missingNumber()
-powerOfTwo()
+//powerOfTwo()
+numberOf1Bits()
 
 
 
