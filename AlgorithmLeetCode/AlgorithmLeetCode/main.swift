@@ -24,7 +24,8 @@ print("Hello, World!")
 //findMinimuminRotatedSortedArrayII()
 //largestRectangleinHistogram()
 //maximalRectangle()
-reverseInteger()
+//reverseInteger()
+palindromeNumber()
 
 
 // MARK: - 题目名称:

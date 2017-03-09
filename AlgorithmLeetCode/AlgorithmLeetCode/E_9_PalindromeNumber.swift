@@ -54,13 +54,20 @@ import Foundation
 
 /* MARK: - 解题思路:
  
+ 负数不是回文 0 是回文
  
+ 为了防止溢出，我们只需要计算整数右半部分的值，和左半部分进行对比即可判断是否是回文数。
+
+ 循环结束的时候会有两种情况：
+ 
+ 若原先的整数长度为奇数的时候，需要判断 num == rightHalf / 10 。例如对于整数12121，循环结束的时候，num == 12，rightHalf == 121。
+ 若原先的整数长度为偶数的时候，需要判断 num == rightHalf 。例如对于整数1221，循环结束的时候，num == 12，rightHalf == 121。
  
  */
 
 
 /* MARK: - 复杂度分析:
- 
+ 时间复杂度: logN
  
  */
 
@@ -68,13 +75,46 @@ import Foundation
 // MARK: - 代码:
 private class Solution {
     
-    
+    func isPalindrome(_ x: Int) -> Bool {
+        
+        // 如果是负数 直接返回
+        if x < 0 {
+            return false
+        }
+        
+        // 需要处理的数据
+        var num = x
+        // 右边的数据
+        var rightHalf = 0
+        
+        // 判断 是否已经把右边数据处理完成了
+        while num > rightHalf {
+            // 通过对num 右边的数据进行翻转 
+            // 将来可以和左边的数据进行比较
+            rightHalf = rightHalf * 10 + num % 10
+            // 指向下一位
+            num /= 10
+        }
+        
+        // 判断左右两边是否相等 主要是奇数和偶数的差别
+        return num == rightHalf || (num == rightHalf / 10)
+        
+       
+    }
 }
 
 
 
 // MARK: - 测试代码:
-
+func palindromeNumber() {
+    
+    print(Solution().isPalindrome(-2))
+    print(Solution().isPalindrome(0))
+    print(Solution().isPalindrome(2))
+    print(Solution().isPalindrome(12321))
+    print(Solution().isPalindrome(123321))
+    
+}
 
 
 
