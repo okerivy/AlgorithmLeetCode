@@ -28,8 +28,8 @@ print("Hello, World!")
 //palindromeNumber()
 //searchA2DMatrix()
 //searchforARange()
-searchInsertPosition()
-
+//searchInsertPosition()
+findPeakElement()
 
 // MARK: - 题目名称:
 

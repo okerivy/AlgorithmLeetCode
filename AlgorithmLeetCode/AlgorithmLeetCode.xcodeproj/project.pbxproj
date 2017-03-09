@@ -26,6 +26,7 @@
 		7B1A61271E712078002BAD1F /* M_74_SearchA2DMatrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1A61261E712078002BAD1F /* M_74_SearchA2DMatrix.swift */; };
 		7B1A61291E714411002BAD1F /* M_34_SearchforARange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1A61281E714411002BAD1F /* M_34_SearchforARange.swift */; };
 		7B1A612B1E71547A002BAD1F /* E_35_SearchInsertPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1A612A1E71547A002BAD1F /* E_35_SearchInsertPosition.swift */; };
+		7B1A612F1E716784002BAD1F /* M_162_FindPeakElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1A612E1E716784002BAD1F /* M_162_FindPeakElement.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -61,6 +62,7 @@
 		7B1A61261E712078002BAD1F /* M_74_SearchA2DMatrix.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = M_74_SearchA2DMatrix.swift; sourceTree = "<group>"; };
 		7B1A61281E714411002BAD1F /* M_34_SearchforARange.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = M_34_SearchforARange.swift; sourceTree = "<group>"; };
 		7B1A612A1E71547A002BAD1F /* E_35_SearchInsertPosition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = E_35_SearchInsertPosition.swift; sourceTree = "<group>"; };
+		7B1A612E1E716784002BAD1F /* M_162_FindPeakElement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = M_162_FindPeakElement.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 				7B1A61261E712078002BAD1F /* M_74_SearchA2DMatrix.swift */,
 				7B1A61281E714411002BAD1F /* M_34_SearchforARange.swift */,
 				7B1A612A1E71547A002BAD1F /* E_35_SearchInsertPosition.swift */,
+				7B1A612E1E716784002BAD1F /* M_162_FindPeakElement.swift */,
 			);
 			path = AlgorithmLeetCode;
 			sourceTree = "<group>";
@@ -181,6 +184,7 @@
 				7B1A610D1E6EC57A002BAD1F /* E-26-RemoveDuplicatesFromSortedArray.swift in Sources */,
 				7B1A61291E714411002BAD1F /* M_34_SearchforARange.swift in Sources */,
 				7B1A610F1E6EC5C5002BAD1F /* M_80_RemoveDuplicatesFromSortedArrayII.swift in Sources */,
+				7B1A612F1E716784002BAD1F /* M_162_FindPeakElement.swift in Sources */,
 				7B1A61271E712078002BAD1F /* M_74_SearchA2DMatrix.swift in Sources */,
 				7B1A611D1E700F76002BAD1F /* H_154_FindMinimuminRotatedSortedArrayII.swift in Sources */,
 				7B1A61131E6F038A002BAD1F /* testSwift.swift in Sources */,
