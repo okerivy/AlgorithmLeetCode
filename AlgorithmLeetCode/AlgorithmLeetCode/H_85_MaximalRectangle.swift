@@ -4,7 +4,7 @@
 //
 //  Created by okerivy on 2017/3/9.
 //  Copyright © 2017年 okerivy. All rights reserved.
-//
+//  https://leetcode.com/problems/maximal-rectangle
 
 import Foundation
 
@@ -186,7 +186,6 @@ private class Solution {
 
 
 
-// MARK: - 测试代码:
 // MARK: - 测试代码:
 func maximalRectangle() {
     
