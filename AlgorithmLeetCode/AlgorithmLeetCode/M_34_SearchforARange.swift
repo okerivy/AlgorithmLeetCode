@@ -147,7 +147,7 @@ private class Solution {
 
 // MARK: - 测试代码:
 func searchforARange() {
-    let nums1  = [5, 7, 7, 8, 8, 8, 10]
+    let nums1  = [5, 7, 7, 8, 8, 8] // [1,3,5,6]
     
     print(Solution().searchRange(nums1, 7)) // [1, 2]
     print(Solution().searchRange(nums1, 8)) // [3, 5]

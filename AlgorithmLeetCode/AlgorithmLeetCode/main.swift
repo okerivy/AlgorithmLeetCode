@@ -27,7 +27,8 @@ print("Hello, World!")
 //reverseInteger()
 //palindromeNumber()
 //searchA2DMatrix()
-searchforARange()
+//searchforARange()
+searchInsertPosition()
 
 
 // MARK: - 题目名称:
