@@ -30,8 +30,8 @@ print("Hello, World!")
 //searchforARange()
 //searchInsertPosition()
 //findPeakElement()
-
-missingNumber()
+//missingNumber()
+powerOfTwo()
 
 
 
