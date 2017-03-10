@@ -33,7 +33,8 @@ print("Hello, World!")
 //missingNumber()
 //powerOfTwo()
 //numberOf1Bits()
-maximumDepthOfBinaryTree()
+//maximumDepthOfBinaryTree()
+minimumDepthOfBinaryTree()
 
 
 

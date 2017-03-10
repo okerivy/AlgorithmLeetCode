@@ -31,6 +31,8 @@
 		7B1A61331E7185DC002BAD1F /* E_231_PowerOfTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1A61321E7185DC002BAD1F /* E_231_PowerOfTwo.swift */; };
 		7B1A61351E718D97002BAD1F /* E_191_NumberOf1Bits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1A61341E718D97002BAD1F /* E_191_NumberOf1Bits.swift */; };
 		7B1A61371E719587002BAD1F /* E_104_MaximumDepthOfBinaryTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1A61361E719587002BAD1F /* E_104_MaximumDepthOfBinaryTree.swift */; };
+		7B1A61391E72C23B002BAD1F /* CreateBinaryTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1A61381E72C23B002BAD1F /* CreateBinaryTree.swift */; };
+		7B1A613B1E72C416002BAD1F /* E_111_MinimumDepthOfBinaryTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1A613A1E72C416002BAD1F /* E_111_MinimumDepthOfBinaryTree.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -71,6 +73,8 @@
 		7B1A61321E7185DC002BAD1F /* E_231_PowerOfTwo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = E_231_PowerOfTwo.swift; sourceTree = "<group>"; };
 		7B1A61341E718D97002BAD1F /* E_191_NumberOf1Bits.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = E_191_NumberOf1Bits.swift; sourceTree = "<group>"; };
 		7B1A61361E719587002BAD1F /* E_104_MaximumDepthOfBinaryTree.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = E_104_MaximumDepthOfBinaryTree.swift; sourceTree = "<group>"; };
+		7B1A61381E72C23B002BAD1F /* CreateBinaryTree.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateBinaryTree.swift; sourceTree = "<group>"; };
+		7B1A613A1E72C416002BAD1F /* E_111_MinimumDepthOfBinaryTree.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = E_111_MinimumDepthOfBinaryTree.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +109,7 @@
 			children = (
 				7B1A61011E6EC3CE002BAD1F /* main.swift */,
 				7B1A61121E6F038A002BAD1F /* testSwift.swift */,
+				7B1A61381E72C23B002BAD1F /* CreateBinaryTree.swift */,
 				7B1A61081E6EC442002BAD1F /* E_001_TwoSum.swift */,
 				7B1A610A1E6EC520002BAD1F /* E_27_RemoveElement.swift */,
 				7B1A610C1E6EC57A002BAD1F /* E-26-RemoveDuplicatesFromSortedArray.swift */,
@@ -127,6 +132,7 @@
 				7B1A61321E7185DC002BAD1F /* E_231_PowerOfTwo.swift */,
 				7B1A61341E718D97002BAD1F /* E_191_NumberOf1Bits.swift */,
 				7B1A61361E719587002BAD1F /* E_104_MaximumDepthOfBinaryTree.swift */,
+				7B1A613A1E72C416002BAD1F /* E_111_MinimumDepthOfBinaryTree.swift */,
 			);
 			path = AlgorithmLeetCode;
 			sourceTree = "<group>";
@@ -199,6 +205,7 @@
 				7B1A61291E714411002BAD1F /* M_34_SearchforARange.swift in Sources */,
 				7B1A610F1E6EC5C5002BAD1F /* M_80_RemoveDuplicatesFromSortedArrayII.swift in Sources */,
 				7B1A612F1E716784002BAD1F /* M_162_FindPeakElement.swift in Sources */,
+				7B1A61391E72C23B002BAD1F /* CreateBinaryTree.swift in Sources */,
 				7B1A61271E712078002BAD1F /* M_74_SearchA2DMatrix.swift in Sources */,
 				7B1A611D1E700F76002BAD1F /* H_154_FindMinimuminRotatedSortedArrayII.swift in Sources */,
 				7B1A61131E6F038A002BAD1F /* testSwift.swift in Sources */,
@@ -213,6 +220,7 @@
 				7B1A61371E719587002BAD1F /* E_104_MaximumDepthOfBinaryTree.swift in Sources */,
 				7B1A612B1E71547A002BAD1F /* E_35_SearchInsertPosition.swift in Sources */,
 				7B1A61191E6FF1CC002BAD1F /* E_88_MergeSortedArray.swift in Sources */,
+				7B1A613B1E72C416002BAD1F /* E_111_MinimumDepthOfBinaryTree.swift in Sources */,
 				7B1A61211E71048E002BAD1F /* H_85_MaximalRectangle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
