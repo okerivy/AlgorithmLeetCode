@@ -30,6 +30,7 @@
 		7B1A61311E717442002BAD1F /* E_268_MissingNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1A61301E717442002BAD1F /* E_268_MissingNumber.swift */; };
 		7B1A61331E7185DC002BAD1F /* E_231_PowerOfTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1A61321E7185DC002BAD1F /* E_231_PowerOfTwo.swift */; };
 		7B1A61351E718D97002BAD1F /* E_191_NumberOf1Bits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1A61341E718D97002BAD1F /* E_191_NumberOf1Bits.swift */; };
+		7B1A61371E719587002BAD1F /* E_104_MaximumDepthOfBinaryTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1A61361E719587002BAD1F /* E_104_MaximumDepthOfBinaryTree.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -69,6 +70,7 @@
 		7B1A61301E717442002BAD1F /* E_268_MissingNumber.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = E_268_MissingNumber.swift; sourceTree = "<group>"; };
 		7B1A61321E7185DC002BAD1F /* E_231_PowerOfTwo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = E_231_PowerOfTwo.swift; sourceTree = "<group>"; };
 		7B1A61341E718D97002BAD1F /* E_191_NumberOf1Bits.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = E_191_NumberOf1Bits.swift; sourceTree = "<group>"; };
+		7B1A61361E719587002BAD1F /* E_104_MaximumDepthOfBinaryTree.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = E_104_MaximumDepthOfBinaryTree.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +126,7 @@
 				7B1A61301E717442002BAD1F /* E_268_MissingNumber.swift */,
 				7B1A61321E7185DC002BAD1F /* E_231_PowerOfTwo.swift */,
 				7B1A61341E718D97002BAD1F /* E_191_NumberOf1Bits.swift */,
+				7B1A61361E719587002BAD1F /* E_104_MaximumDepthOfBinaryTree.swift */,
 			);
 			path = AlgorithmLeetCode;
 			sourceTree = "<group>";
@@ -207,6 +210,7 @@
 				7B1A610B1E6EC520002BAD1F /* E_27_RemoveElement.swift in Sources */,
 				7B1A611F1E701E32002BAD1F /* H_84_LargestRectangleinHistogram.swift in Sources */,
 				7B1A61331E7185DC002BAD1F /* E_231_PowerOfTwo.swift in Sources */,
+				7B1A61371E719587002BAD1F /* E_104_MaximumDepthOfBinaryTree.swift in Sources */,
 				7B1A612B1E71547A002BAD1F /* E_35_SearchInsertPosition.swift in Sources */,
 				7B1A61191E6FF1CC002BAD1F /* E_88_MergeSortedArray.swift in Sources */,
 				7B1A61211E71048E002BAD1F /* H_85_MaximalRectangle.swift in Sources */,

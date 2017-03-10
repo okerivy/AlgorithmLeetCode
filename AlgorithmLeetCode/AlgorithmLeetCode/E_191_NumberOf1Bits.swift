@@ -78,7 +78,6 @@ private class Solution {
                 count += 1
             }
             
-            
             // 右移一位 相当于 / 2  public func >>=(lhs: inout UInt32, rhs: UInt32)
             num >>= 1
         }
@@ -86,6 +85,24 @@ private class Solution {
         return count;
     }
 
+    // 取模 整除
+    func hammingWeight2(_ n: UInt32) -> Int {
+        
+        // 传进来n为let类型 不能改变,所以搞个num变量
+        var  num = n
+        
+        // 计数器
+        var count = 0
+        
+        while num > 0 {
+            count += 1
+            
+            // x & (x - 1) 它会把整数x的二进制的最后一个1去掉。
+            num &= (num - 1)
+        }
+        
+        return count;
+    }
     
 }
 
