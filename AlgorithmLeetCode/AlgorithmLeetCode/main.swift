@@ -34,8 +34,8 @@ print("Hello, World!")
 //powerOfTwo()
 //numberOf1Bits()
 //maximumDepthOfBinaryTree()
-minimumDepthOfBinaryTree()
-
+//minimumDepthOfBinaryTree()
+ConstructBinaryTreeFromInorderandPostorderTraversal()
 
 
 // MARK: - 题目名称:
