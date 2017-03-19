@@ -85,7 +85,7 @@ import Foundation
 
 
 /* MARK: - 复杂度分析:
- 
+ 时间复杂度为O(n)
  
  */
 
@@ -112,6 +112,7 @@ private class Solution {
         
         return ans
     }
+
     
     private func levelTree(root: TreeNode?, level: Int, ans: inout [[Int]]) {
         
