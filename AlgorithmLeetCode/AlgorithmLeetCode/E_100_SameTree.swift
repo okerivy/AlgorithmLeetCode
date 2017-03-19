@@ -72,6 +72,7 @@ private class Solution {
         return isSameTreeIteration(p, q)
     }
     
+    // 递归
     private func isSameTreeRecursion(_ p: TreeNode?, _ q: TreeNode?) -> Bool {
         // 判断是否为空
         if p == nil || q == nil {
@@ -87,6 +88,7 @@ private class Solution {
         }
     }
     
+    // 迭代 遍历
     private func isSameTreeIteration(_ p: TreeNode?, _ q: TreeNode?) -> Bool {
         
         // 判断是否为空
