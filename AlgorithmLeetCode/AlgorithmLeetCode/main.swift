@@ -42,7 +42,8 @@ print("Hello, World!")
 //BinaryTreeZigzagLevelOrderTraversal()
 //SameTree()
 //SymmetricTree()
-BalancedBinaryTree()
+//BalancedBinaryTree()
+PathSum()
 
 
 

@@ -41,6 +41,7 @@
 		7B3AC7A21E7E5B6D00CA8FE1 /* E_100_SameTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3AC7A11E7E5B6C00CA8FE1 /* E_100_SameTree.swift */; };
 		7B3AC7A41E7E67E400CA8FE1 /* E_101_SymmetricTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3AC7A31E7E67E400CA8FE1 /* E_101_SymmetricTree.swift */; };
 		7B3AC7A61E7E719900CA8FE1 /* E_110_BalancedBinaryTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3AC7A51E7E719900CA8FE1 /* E_110_BalancedBinaryTree.swift */; };
+		7B3AC7A81E7E788C00CA8FE1 /* E_112_PathSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3AC7A71E7E788C00CA8FE1 /* E_112_PathSum.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -91,6 +92,7 @@
 		7B3AC7A11E7E5B6C00CA8FE1 /* E_100_SameTree.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = E_100_SameTree.swift; sourceTree = "<group>"; };
 		7B3AC7A31E7E67E400CA8FE1 /* E_101_SymmetricTree.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = E_101_SymmetricTree.swift; sourceTree = "<group>"; };
 		7B3AC7A51E7E719900CA8FE1 /* E_110_BalancedBinaryTree.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = E_110_BalancedBinaryTree.swift; sourceTree = "<group>"; };
+		7B3AC7A71E7E788C00CA8FE1 /* E_112_PathSum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = E_112_PathSum.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -157,6 +159,7 @@
 				7B3AC7A11E7E5B6C00CA8FE1 /* E_100_SameTree.swift */,
 				7B3AC7A31E7E67E400CA8FE1 /* E_101_SymmetricTree.swift */,
 				7B3AC7A51E7E719900CA8FE1 /* E_110_BalancedBinaryTree.swift */,
+				7B3AC7A71E7E788C00CA8FE1 /* E_112_PathSum.swift */,
 			);
 			path = AlgorithmLeetCode;
 			sourceTree = "<group>";
@@ -239,6 +242,7 @@
 				7B1A61131E6F038A002BAD1F /* testSwift.swift in Sources */,
 				7B1A61251E711819002BAD1F /* E_7_ReverseInteger.swift in Sources */,
 				7B3AC7A01E7E4FAF00CA8FE1 /* M_103_BinaryTreeZigzagLevelOrderTraversal.swift in Sources */,
+				7B3AC7A81E7E788C00CA8FE1 /* E_112_PathSum.swift in Sources */,
 				7B1A61091E6EC442002BAD1F /* E_001_TwoSum.swift in Sources */,
 				7B1A61021E6EC3CE002BAD1F /* main.swift in Sources */,
 				7B3AC7961E7D5A2000CA8FE1 /* M_106_ConstructBinaryTreeFromInorderandPostorderTraversal.swift in Sources */,
