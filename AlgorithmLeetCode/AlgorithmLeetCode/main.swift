@@ -36,7 +36,8 @@ print("Hello, World!")
 //maximumDepthOfBinaryTree()
 //minimumDepthOfBinaryTree()
 //ConstructBinaryTreeFromInorderandPostorderTraversal()
-ConstructBinaryTreeFromPreorderandInorderTraversal()
+//ConstructBinaryTreeFromPreorderandInorderTraversal()
+BinaryTreeLevelOrderTraversal()
 
 
 // MARK: - 题目名称:

@@ -35,6 +35,7 @@
 		7B1A613B1E72C416002BAD1F /* E_111_MinimumDepthOfBinaryTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1A613A1E72C416002BAD1F /* E_111_MinimumDepthOfBinaryTree.swift */; };
 		7B3AC7961E7D5A2000CA8FE1 /* M_106_ConstructBinaryTreeFromInorderandPostorderTraversal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3AC7951E7D5A2000CA8FE1 /* M_106_ConstructBinaryTreeFromInorderandPostorderTraversal.swift */; };
 		7B3AC79A1E7D722300CA8FE1 /* M_105_ConstructBinaryTreeFromPreorderandInorderTraversal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3AC7991E7D722300CA8FE1 /* M_105_ConstructBinaryTreeFromPreorderandInorderTraversal.swift */; };
+		7B3AC79C1E7E1B6500CA8FE1 /* M_102_BinaryTreeLevelOrderTraversal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3AC79B1E7E1B6500CA8FE1 /* M_102_BinaryTreeLevelOrderTraversal.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -79,6 +80,7 @@
 		7B1A613A1E72C416002BAD1F /* E_111_MinimumDepthOfBinaryTree.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = E_111_MinimumDepthOfBinaryTree.swift; sourceTree = "<group>"; };
 		7B3AC7951E7D5A2000CA8FE1 /* M_106_ConstructBinaryTreeFromInorderandPostorderTraversal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = M_106_ConstructBinaryTreeFromInorderandPostorderTraversal.swift; sourceTree = "<group>"; };
 		7B3AC7991E7D722300CA8FE1 /* M_105_ConstructBinaryTreeFromPreorderandInorderTraversal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = M_105_ConstructBinaryTreeFromPreorderandInorderTraversal.swift; sourceTree = "<group>"; };
+		7B3AC79B1E7E1B6500CA8FE1 /* M_102_BinaryTreeLevelOrderTraversal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = M_102_BinaryTreeLevelOrderTraversal.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,6 +141,7 @@
 				7B1A613A1E72C416002BAD1F /* E_111_MinimumDepthOfBinaryTree.swift */,
 				7B3AC7951E7D5A2000CA8FE1 /* M_106_ConstructBinaryTreeFromInorderandPostorderTraversal.swift */,
 				7B3AC7991E7D722300CA8FE1 /* M_105_ConstructBinaryTreeFromPreorderandInorderTraversal.swift */,
+				7B3AC79B1E7E1B6500CA8FE1 /* M_102_BinaryTreeLevelOrderTraversal.swift */,
 			);
 			path = AlgorithmLeetCode;
 			sourceTree = "<group>";
@@ -211,6 +214,7 @@
 				7B1A61291E714411002BAD1F /* M_34_SearchforARange.swift in Sources */,
 				7B1A610F1E6EC5C5002BAD1F /* M_80_RemoveDuplicatesFromSortedArrayII.swift in Sources */,
 				7B1A612F1E716784002BAD1F /* M_162_FindPeakElement.swift in Sources */,
+				7B3AC79C1E7E1B6500CA8FE1 /* M_102_BinaryTreeLevelOrderTraversal.swift in Sources */,
 				7B1A61391E72C23B002BAD1F /* CreateBinaryTree.swift in Sources */,
 				7B1A61271E712078002BAD1F /* M_74_SearchA2DMatrix.swift in Sources */,
 				7B1A611D1E700F76002BAD1F /* H_154_FindMinimuminRotatedSortedArrayII.swift in Sources */,
