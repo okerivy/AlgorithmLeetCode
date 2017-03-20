@@ -143,7 +143,6 @@ private class Solution {
 
 
 // MARK: - 测试代码:
-// MARK: - 测试代码:
 func PopulatingNextRightPointersInEachNodeII() {
     
     var root1 = CreateBinaryTree().convertArrayToTree([1, 2, 3, 4, 5, 6, 7])
@@ -152,7 +151,8 @@ func PopulatingNextRightPointersInEachNodeII() {
     print(Solution().connect(&root1))
     print(Solution().connect(&root2))
 
-    
+    let head = CreatSinglyList().convertArrayToSinglyList([1, 2, 3, 4, 5, 6, 7])
+    print(head ?? "链表为空")
 }
 
 
