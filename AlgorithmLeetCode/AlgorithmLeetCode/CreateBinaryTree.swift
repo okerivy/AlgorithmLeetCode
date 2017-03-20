@@ -30,10 +30,12 @@ public class CreateBinaryTree {
         var value: Int
         var left: TreeNode?
         var right: TreeNode?
+        var next: TreeNode?
         init(value: Int, left: TreeNode?, right: TreeNode?) {
             self.value = value
             self.left = left
             self.right = right
+            self.next = nil
         }
     }
     
