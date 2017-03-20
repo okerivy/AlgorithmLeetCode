@@ -1,48 +1,52 @@
 //
-//  M_144_BinaryTreePreorderTraversal.swift
+//  M_94_BinaryTreeInorderTraversal.swift
 //  AlgorithmLeetCode
 //
 //  Created by okerivy on 2017/3/20.
 //  Copyright © 2017年 okerivy. All rights reserved.
-//  https://leetcode.com/problems/binary-tree-preorder-traversal
+//  https://leetcode.com/problems/binary-tree-inorder-traversal
 
 import Foundation
 
 
 
-// MARK: - 题目名称: 144. Binary Tree Preorder Traversal
+
+
+// MARK: - 题目名称: 94. Binary Tree Inorder Traversal
 
 /* MARK: - 所属类别:
- 标签: Tree, Stack
+ 标签: Tree, Hash Table, Stack
  
  相关题目:
- (M) Binary Tree Inorder Traversal 
- (M) Verify Preorder Sequence in Binary Search Tree
+ (M) Validate Binary Search Tree 
+ (M) Binary Tree Preorder Traversal 
+ (H) Binary Tree Postorder Traversal
+ (M) Binary Search Tree Iterator 
+ (M) Kth Smallest Element in a BST 
+ (H) Closest Binary Search Tree Value II 
+ (M) Inorder Successor in BST
 
- 
  */
 
 /* MARK: - 题目英文:
- Given a binary tree, return the preorder traversal of its nodes' values.
+ Given a binary tree, return the inorder traversal of its nodes' values.
  
  For example:
- Given binary tree {1,#,2,3},
+ Given binary tree [1,null,2,3],
  1
   \
    2
   /
  3
- return [1,2,3].
+ return [1,3,2].
  
  Note: Recursive solution is trivial, could you do it iteratively?
- 
-
  
  */
 
 
 /* MARK: - 题目翻译:
- 给定一个二叉树，返回先序遍历的所有节点的值。
+ 给定一个二叉树，返回中序遍历的所有节点的值。
  例如：给定二叉树 {1,#,2,3}，
  
  1
@@ -50,19 +54,23 @@ import Foundation
    2
   /
  3
- 返回 [1,2,3]。
+ 返回 [1,3,2]。
  注意： 递归的解决方案是微不足道的，你能使用迭代来解决这题吗?
+ 
+
  
  */
 
 
 
 /* MARK: - 解题思路:
-  迭代(Iteration)与递归(Recursion)
+ 
+ 迭代(Iteration)与递归(Recursion)
  
  下面的更简单的非递归遍历二叉树的方法来源于 简书作者紫松 http://www.jianshu.com/p/49c8cfd07410
  非常棒的一篇博客，对二叉树新的遍历方法讲解得非常透彻，并且三种遍历的方法非常统一，也适用于其他遍历方式。
  
+
  
  */
 
@@ -75,6 +83,7 @@ import Foundation
 
 // MARK: - 代码:
 private class Solution {
+    
     /**
      * Definition for a binary tree node.
      * public class TreeNode {
@@ -89,38 +98,36 @@ private class Solution {
      * }
      */
     
-    func preorderTraversal(_ root: TreeNode?) -> [Int] {
+    func inorderTraversal(_ root: TreeNode?) -> [Int] {
         
-//        return preorderTraversalRecursion(root)
-        return preorderTraversalIteration(root)
-
+//        return inorderTraversalRecursion(root)
+        return inorderTraversalIteration(root)
     }
     
-    // 递归遍历
-    private func preorderTraversalRecursion(_ root: TreeNode?) -> [Int] {
+    // 递归
+    func inorderTraversalRecursion(_ root: TreeNode?) -> [Int] {
         
         if root == nil {
             return []
         }
         
         var ans = [Int]()
-        
         // 递归遍历
-        let leftArr = preorderTraversalRecursion(root?.left)
-        let rightArr = preorderTraversalRecursion(root?.right)
+        let leftArr = inorderTraversalRecursion(root?.left)
+        let rightArr = inorderTraversalRecursion(root?.right)
         
-        // 添加跟结点
-        ans.append((root?.value)!)
         // 添加左子树
         ans.append(contentsOf: leftArr)
+        // 添加跟结点
+        ans.append((root?.value)!)
         // 添加右子树
         ans.append(contentsOf: rightArr)
 
         return ans
     }
     
-    // 迭代遍历
-    private func preorderTraversalIteration(_ root: TreeNode?) -> [Int] {
+    // 迭代
+    func inorderTraversalIteration(_ root: TreeNode?) -> [Int] {
         
         // 排除特殊情况
         if root == nil {
@@ -140,40 +147,41 @@ private class Solution {
             let visited = (stack.last?.1)!
             // 栈顶元素出栈
             stack.removeLast()
+            
+            
             if nood == nil {
                 continue
             }
-            
             if visited {
-                //
+                // 找到结点
                 ans.append((nood?.value)!)
             } else {
                 // 入栈顺序将决定遍历顺序 倒着出去
                 stack.append((nood?.right, false))
-                stack.append((nood?.left, false))
                 stack.append((nood, true))
+                stack.append((nood?.left, false))
             }
         }
-        
+
         return ans
     }
+    
 }
 
 
 
+
 // MARK: - 测试代码:
-func BinaryTreePreorderTraversal() {
+func BinaryTreeInorderTraversal() {
     
     let root1 = CreateBinaryTree().convertArrayToTree([1, 2, 2, 3, 4, 4, 3])
     let root2 = CreateBinaryTree().convertArrayToTree([5, 4, 8, 11, Int.min, 13, 4, 7, 2, Int.min, Int.min, 5, 1])
     let root3 = CreateBinaryTree().convertArrayToTree([10, 5, -3, 3, 2, Int.min, 11, 3, -2, Int.min, 1])
     
     
-    print(Solution().preorderTraversal(root1))
-    print(Solution().preorderTraversal(root2))
-    print(Solution().preorderTraversal(root3))
-
+    print(Solution().inorderTraversal(root1))
+    print(Solution().inorderTraversal(root2))
+    print(Solution().inorderTraversal(root3))
+    
 }
-
-
 
