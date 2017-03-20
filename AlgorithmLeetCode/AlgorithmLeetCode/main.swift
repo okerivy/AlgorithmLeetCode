@@ -51,8 +51,8 @@ print("Hello, World!")
 //BinaryTreePostorderTraversal()
 //PopulatingNextRightPointersInEachNode()
 //PopulatingNextRightPointersInEachNodeII()
-ConvertSortedListToBinarySearchTree()
-
+//ConvertSortedListToBinarySearchTree()
+ConvertSortedArrayToBinarySearchTree()
 
 
 // MARK: - 题目名称:

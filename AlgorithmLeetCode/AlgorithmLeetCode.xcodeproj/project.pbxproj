@@ -51,6 +51,7 @@
 		7BFA26711E7FECB10070C552 /* M_117_PopulatingNextRightPointersInEachNodeII.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BFA26701E7FECB10070C552 /* M_117_PopulatingNextRightPointersInEachNodeII.swift */; };
 		7BFA26751E8007E30070C552 /* CreatSinglyList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BFA26741E8007E30070C552 /* CreatSinglyList.swift */; };
 		7BFA26771E800E6C0070C552 /* M_109_ConvertSortedListToBinarySearchTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BFA26761E800E6C0070C552 /* M_109_ConvertSortedListToBinarySearchTree.swift */; };
+		7BFA26791E8021270070C552 /* E_108_ConvertSortedArrayToBinarySearchTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BFA26781E8021270070C552 /* E_108_ConvertSortedArrayToBinarySearchTree.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -111,6 +112,7 @@
 		7BFA26701E7FECB10070C552 /* M_117_PopulatingNextRightPointersInEachNodeII.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = M_117_PopulatingNextRightPointersInEachNodeII.swift; sourceTree = "<group>"; };
 		7BFA26741E8007E30070C552 /* CreatSinglyList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreatSinglyList.swift; sourceTree = "<group>"; };
 		7BFA26761E800E6C0070C552 /* M_109_ConvertSortedListToBinarySearchTree.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = M_109_ConvertSortedListToBinarySearchTree.swift; sourceTree = "<group>"; };
+		7BFA26781E8021270070C552 /* E_108_ConvertSortedArrayToBinarySearchTree.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = E_108_ConvertSortedArrayToBinarySearchTree.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -187,6 +189,7 @@
 				7BFA266E1E7FE2F00070C552 /* M_116_PopulatingNextRightPointersInEachNode.swift */,
 				7BFA26701E7FECB10070C552 /* M_117_PopulatingNextRightPointersInEachNodeII.swift */,
 				7BFA26761E800E6C0070C552 /* M_109_ConvertSortedListToBinarySearchTree.swift */,
+				7BFA26781E8021270070C552 /* E_108_ConvertSortedArrayToBinarySearchTree.swift */,
 			);
 			path = AlgorithmLeetCode;
 			sourceTree = "<group>";
@@ -257,6 +260,7 @@
 				7B1A61151E6FBC4A002BAD1F /* E_118_Pascal'sTriangle.swift in Sources */,
 				7B1A61111E6ED2DC002BAD1F /* E_66_PlusOne.swift in Sources */,
 				7B1A610D1E6EC57A002BAD1F /* E-26-RemoveDuplicatesFromSortedArray.swift in Sources */,
+				7BFA26791E8021270070C552 /* E_108_ConvertSortedArrayToBinarySearchTree.swift in Sources */,
 				7B1A61291E714411002BAD1F /* M_34_SearchforARange.swift in Sources */,
 				7B1A610F1E6EC5C5002BAD1F /* M_80_RemoveDuplicatesFromSortedArrayII.swift in Sources */,
 				7BFA266B1E7F9A3C0070C552 /* M_94_BinaryTreeInorderTraversal.swift in Sources */,

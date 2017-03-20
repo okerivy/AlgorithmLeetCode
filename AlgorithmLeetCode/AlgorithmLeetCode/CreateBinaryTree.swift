@@ -40,7 +40,11 @@ public class CreateBinaryTree {
         }
     }
     
-    
+    // MARK: - 按数字来构建二叉树
+    func convertNumberToTree(_ num: Int?) -> TreeNode? {
+        guard let num = num else { return nil }
+        return TreeNode.init(value: num, left: nil, right: nil)
+    }
     
     // MARK: - 按数组来构建二叉树
     func convertArrayToTree(_ array: [Int]) -> TreeNode? {
