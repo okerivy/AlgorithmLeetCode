@@ -49,7 +49,8 @@ print("Hello, World!")
 //BinaryTreePreorderTraversal()
 //BinaryTreeInorderTraversal()
 //BinaryTreePostorderTraversal()
-PopulatingNextRightPointersInEachNode()
+//PopulatingNextRightPointersInEachNode()
+PopulatingNextRightPointersInEachNodeII()
 
 
 
