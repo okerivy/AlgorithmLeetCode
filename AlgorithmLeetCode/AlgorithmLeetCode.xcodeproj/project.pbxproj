@@ -46,6 +46,7 @@
 		7B3AC7AC1E7F773A00CA8FE1 /* E_437_PathSumIII.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3AC7AB1E7F773A00CA8FE1 /* E_437_PathSumIII.swift */; };
 		7B3AC7AE1E7F815200CA8FE1 /* M_144_BinaryTreePreorderTraversal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3AC7AD1E7F815200CA8FE1 /* M_144_BinaryTreePreorderTraversal.swift */; };
 		7BFA266B1E7F9A3C0070C552 /* M_94_BinaryTreeInorderTraversal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BFA266A1E7F9A3C0070C552 /* M_94_BinaryTreeInorderTraversal.swift */; };
+		7BFA266D1E7FCBA60070C552 /* H_145_BinaryTreePostorderTraversal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BFA266C1E7FCBA60070C552 /* H_145_BinaryTreePostorderTraversal.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -101,6 +102,7 @@
 		7B3AC7AB1E7F773A00CA8FE1 /* E_437_PathSumIII.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = E_437_PathSumIII.swift; sourceTree = "<group>"; };
 		7B3AC7AD1E7F815200CA8FE1 /* M_144_BinaryTreePreorderTraversal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = M_144_BinaryTreePreorderTraversal.swift; sourceTree = "<group>"; };
 		7BFA266A1E7F9A3C0070C552 /* M_94_BinaryTreeInorderTraversal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = M_94_BinaryTreeInorderTraversal.swift; sourceTree = "<group>"; };
+		7BFA266C1E7FCBA60070C552 /* H_145_BinaryTreePostorderTraversal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = H_145_BinaryTreePostorderTraversal.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -172,6 +174,7 @@
 				7B3AC7AB1E7F773A00CA8FE1 /* E_437_PathSumIII.swift */,
 				7B3AC7AD1E7F815200CA8FE1 /* M_144_BinaryTreePreorderTraversal.swift */,
 				7BFA266A1E7F9A3C0070C552 /* M_94_BinaryTreeInorderTraversal.swift */,
+				7BFA266C1E7FCBA60070C552 /* H_145_BinaryTreePostorderTraversal.swift */,
 			);
 			path = AlgorithmLeetCode;
 			sourceTree = "<group>";
@@ -265,6 +268,7 @@
 				7B1A61171E6FE571002BAD1F /* E_119_PascalsTriangleII.swift in Sources */,
 				7B1A61231E7114FA002BAD1F /* E_9_PalindromeNumber.swift in Sources */,
 				7B1A610B1E6EC520002BAD1F /* E_27_RemoveElement.swift in Sources */,
+				7BFA266D1E7FCBA60070C552 /* H_145_BinaryTreePostorderTraversal.swift in Sources */,
 				7B1A611F1E701E32002BAD1F /* H_84_LargestRectangleinHistogram.swift in Sources */,
 				7B3AC7A21E7E5B6D00CA8FE1 /* E_100_SameTree.swift in Sources */,
 				7B1A61331E7185DC002BAD1F /* E_231_PowerOfTwo.swift in Sources */,

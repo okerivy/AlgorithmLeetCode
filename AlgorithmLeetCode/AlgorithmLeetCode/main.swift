@@ -47,7 +47,8 @@ print("Hello, World!")
 //PathSumII()
 //PathSumIII()
 //BinaryTreePreorderTraversal()
-BinaryTreeInorderTraversal()
+//BinaryTreeInorderTraversal()
+BinaryTreePostorderTraversal()
 
 
 
