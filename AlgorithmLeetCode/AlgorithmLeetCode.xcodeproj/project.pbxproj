@@ -43,6 +43,7 @@
 		7B3AC7A61E7E719900CA8FE1 /* E_110_BalancedBinaryTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3AC7A51E7E719900CA8FE1 /* E_110_BalancedBinaryTree.swift */; };
 		7B3AC7A81E7E788C00CA8FE1 /* E_112_PathSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3AC7A71E7E788C00CA8FE1 /* E_112_PathSum.swift */; };
 		7B3AC7AA1E7E860E00CA8FE1 /* M_113_PathSumII.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3AC7A91E7E860E00CA8FE1 /* M_113_PathSumII.swift */; };
+		7B3AC7AC1E7F773A00CA8FE1 /* E_437_PathSumIII.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3AC7AB1E7F773A00CA8FE1 /* E_437_PathSumIII.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -95,6 +96,7 @@
 		7B3AC7A51E7E719900CA8FE1 /* E_110_BalancedBinaryTree.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = E_110_BalancedBinaryTree.swift; sourceTree = "<group>"; };
 		7B3AC7A71E7E788C00CA8FE1 /* E_112_PathSum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = E_112_PathSum.swift; sourceTree = "<group>"; };
 		7B3AC7A91E7E860E00CA8FE1 /* M_113_PathSumII.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = M_113_PathSumII.swift; sourceTree = "<group>"; };
+		7B3AC7AB1E7F773A00CA8FE1 /* E_437_PathSumIII.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = E_437_PathSumIII.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -163,6 +165,7 @@
 				7B3AC7A51E7E719900CA8FE1 /* E_110_BalancedBinaryTree.swift */,
 				7B3AC7A71E7E788C00CA8FE1 /* E_112_PathSum.swift */,
 				7B3AC7A91E7E860E00CA8FE1 /* M_113_PathSumII.swift */,
+				7B3AC7AB1E7F773A00CA8FE1 /* E_437_PathSumIII.swift */,
 			);
 			path = AlgorithmLeetCode;
 			sourceTree = "<group>";
@@ -260,6 +263,7 @@
 				7B1A61371E719587002BAD1F /* E_104_MaximumDepthOfBinaryTree.swift in Sources */,
 				7B1A612B1E71547A002BAD1F /* E_35_SearchInsertPosition.swift in Sources */,
 				7B1A61191E6FF1CC002BAD1F /* E_88_MergeSortedArray.swift in Sources */,
+				7B3AC7AC1E7F773A00CA8FE1 /* E_437_PathSumIII.swift in Sources */,
 				7B1A613B1E72C416002BAD1F /* E_111_MinimumDepthOfBinaryTree.swift in Sources */,
 				7B1A61211E71048E002BAD1F /* H_85_MaximalRectangle.swift in Sources */,
 			);
