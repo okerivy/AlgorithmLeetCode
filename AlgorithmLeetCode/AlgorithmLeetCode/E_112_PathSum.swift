@@ -119,7 +119,7 @@ func PathSum() {
     
     
     let root1 = CreateBinaryTree().convertArrayToTree([1, 2, 2, 3, 4, 4, 3])
-    let root2 = CreateBinaryTree().convertArrayToTree([5, 4, 8, 11, 13, 4, 7, 2, 1])
+    let root2 = CreateBinaryTree().convertArrayToTree([5, 4, 8, 11, Int.min, 13, 4, 7, 2, Int.min, Int.min, Int.min, 1])
 
     
     
