@@ -13,7 +13,7 @@ import Foundation
 // MARK: - 题目名称: 114. Flatten Binary Tree to Linked List
 
 /* MARK: - 所属类别:
- 标签:
+ 标签: Tree, Depth-first Search
  
  相关题目:
  
