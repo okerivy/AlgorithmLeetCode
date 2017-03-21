@@ -127,7 +127,7 @@ private class Solution {
 func BinaryTreePaths() {
     
     
-    let root1 = CreateBinaryTree().convertArrayToTree([10, 3, 20, 5, 7, 15, 25, Int.min, Int.min, Int.min, 8])
+    let root1 = CreateBinaryTree().convertArrayToTree([1, 2, 3, 4, 5, 6, 7, 8])
     
     
     print(Solution().binaryTreePaths(root1))
