@@ -70,14 +70,30 @@ import Foundation
  下面的更简单的非递归遍历二叉树的方法来源于 简书作者紫松 http://www.jianshu.com/p/49c8cfd07410
  非常棒的一篇博客，对二叉树新的遍历方法讲解得非常透彻，并且三种遍历的方法非常统一，也适用于其他遍历方式。
  
+ ------ Morris Traversal
+ 步骤：
+ 
+ 1. 如果当前节点的左孩子为空，则输出当前节点并将其右孩子作为当前节点。
+ 
+ 2. 如果当前节点的左孩子不为空，在当前节点的左子树中找到当前节点在中序遍历下的前驱节点。
+ 
+    a) 如果前驱节点的右孩子为空，将它的右孩子设置为当前节点。当前节点更新为当前节点的左孩子。
+ 
+    b) 如果前驱节点的右孩子为当前节点，将它的右孩子重新设为空（恢复树的形状）。输出当前节点。当前节点更新为当前节点的右孩子。
+ 
+ 3. 重复以上1、2直到当前节点为空。
+ 
+ 图示：
+ 
+ 下图为每一步迭代的结果（从左至右，从上到下），cur代表当前节点，深色节点表示该节点已输出。
 
  
  */
 
 
 /* MARK: - 复杂度分析:
- 
- 
+ 中序遍历时间复杂度是 O(n),空间复杂度是 O(n)
+ Morris Traversal 非递归,非迭代  时间复杂度是 O(n),空间复杂度是 O(1)
  */
 
 
@@ -101,7 +117,8 @@ private class Solution {
     func inorderTraversal(_ root: TreeNode?) -> [Int] {
         
 //        return inorderTraversalRecursion(root)
-        return inorderTraversalIteration(root)
+//        return inorderTraversalIteration(root)
+        return inorderMorrisTraversal(root)
     }
     
     // 递归
@@ -166,6 +183,58 @@ private class Solution {
         return ans
     }
     
+    // Morris Traversal 非递归,非迭代  时间复杂度是 O(n),空间复杂度是 O(1)
+    func inorderMorrisTraversal(_ root: TreeNode?) -> [Int] {
+        
+        if root == nil {
+            return []
+        }
+        
+        var ans = [Int]()
+        
+        var cur: TreeNode? = root
+        var prev: TreeNode? = nil
+        
+        while cur != nil {
+            
+            // 当前结点的左孩子为空, 那么就 找到了
+            if cur?.left == nil {
+                // 找到了, 加入数组
+                ans.append((cur?.value)!)
+                // 当前结点指针 指向 右孩子
+                cur = cur?.right
+            } else {
+                
+                // 寻找 根结点的 前驱结点
+                // 1, 如果当前结点的左孩子 没有右子树, 那么前驱结点 就是 当前结点的左孩子
+                // 2, 如果当前结点的左孩子 有右子树, 那么前驱结点 就是这个右子树 最右边的结点
+                prev = cur?.left
+                while prev?.right != nil && prev?.right !== cur {
+                    prev = prev?.right
+                }
+                
+                // 已经找到前驱结点
+                if prev?.right == nil {
+                    prev?.right = cur
+                    cur = cur?.left
+                } else if prev?.right === cur {
+                    // 把前驱结点的 右孩子赋值为空 恢复二叉树的形状
+                    prev?.right = nil
+                    // 获取数值
+                    ans.append((cur?.value)!)
+                    // 移动指针
+                    cur = cur?.right
+                }
+            }
+            
+        }
+        
+        
+        return ans
+    }
+    
+    
+    
 }
 
 
@@ -184,4 +253,3 @@ func BinaryTreeInorderTraversal() {
     print(Solution().inorderTraversal(root3))
     
 }
-
