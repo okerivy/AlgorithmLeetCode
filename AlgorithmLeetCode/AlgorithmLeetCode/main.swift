@@ -55,7 +55,8 @@ print("Hello, World!")
 //ConvertSortedArrayToBinarySearchTree()
 //FlattenBinaryTreeToLinkedList()
 //ValidateBinarySearchTree()
-RecoverBinarySearchTree()
+//RecoverBinarySearchTree()
+BinaryTreePaths()
 
 
 
