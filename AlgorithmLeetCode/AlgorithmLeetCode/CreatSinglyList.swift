@@ -74,5 +74,29 @@ public class CreatSinglyList {
         return head
     }
     
+    // 用数组来构建 有环的单链表
+    func convertArrayToSinglyListCycle(_ array: [Int], _ position: Int) -> SinglyListNode? {
+        
+        if array.count == 0 {
+            return nil
+        }
+        
+        // 尾插法
+        var  positionNode: SinglyListNode? = nil
+        for i in 0..<array.count {
+
+            appendToTail(array[i])
+            if i == position {
+                positionNode = tail
+            }
+        }
+        
+        if position < array.count {
+            tail?.next = positionNode
+        }
+        
+        return head
+    }
+    
     
 }

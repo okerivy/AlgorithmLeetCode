@@ -132,7 +132,7 @@ private class Solution {
                 stack.append((nood, true))
             }
         }
-        // 对root 进行赋值 因为header开始指向的是个临时数据, 所以需要 .right
+        // 对root 进行赋值 因为header开始指向的是个临时数据 next, 所以需要 .right
         root = header?.right
     }
     
