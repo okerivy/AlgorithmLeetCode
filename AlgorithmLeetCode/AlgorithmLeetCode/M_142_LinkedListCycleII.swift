@@ -84,13 +84,11 @@ private class Solution {
             if fast === slow {
                 // 找起点
                 slow = head
-                while fast?.next != nil {
+                while fast !== slow {
                     fast = fast?.next
                     slow = slow?.next
-                    if fast === slow {
-                        return fast
-                    }
                 }
+                return slow
             }
         }
         
