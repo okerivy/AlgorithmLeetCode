@@ -58,7 +58,7 @@ private class Solution {
     func deleteDuplicates(_ head: SinglyListNode?) -> SinglyListNode? {
      
         if head == nil || head?.next == nil {
-            return nil
+            return head
         }
         
         var p = head
