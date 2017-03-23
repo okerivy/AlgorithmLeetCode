@@ -54,6 +54,7 @@ private class Solution {
 
         var l1 = l1
         var l2 = l2
+        // 起点
         let dummy = CreatSinglyList().convertArrayToSinglyList([-1])
         var p = dummy
         
@@ -61,12 +62,14 @@ private class Solution {
             
             //哪个节点小，就挂载，同时移动到下一个节点
             if (l1?.val)! < (l2?.val)! {
+                // 加上结点l1
                 p?.next = l1
                 l1 = l1?.next
             } else {
                 p?.next = l2
                 l2 = l2?.next
             }
+            // p 指向下一个结点
             p = p?.next
         }
         
